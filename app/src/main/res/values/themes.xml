@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Perde" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/perde_gold</item>
+        <item name="colorOnPrimary">@color/perde_on_gold</item>
+        <item name="colorPrimaryContainer">@color/perde_surface2</item>
+        <item name="colorOnPrimaryContainer">@color/perde_text</item>
+        <item name="colorSurface">@color/perde_surface</item>
+        <item name="colorOnSurface">@color/perde_text</item>
+        <item name="android:colorBackground">@color/perde_bg</item>
+        <item name="android:windowBackground">@color/perde_bg</item>
+        <item name="android:statusBarColor">@color/perde_bg</item>
+        <item name="android:navigationBarColor">@color/perde_bg</item>
+        <item name="buttonStyle">@style/Widget.Perde.Button</item>
+    </style>
+
+    <style name="Theme.Perde.Player" parent="Theme.Perde">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="Widget.Perde.Button" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textColor">@color/perde_text</item>
+        <item name="strokeColor">@color/perde_stroke</item>
+    </style>
+
+    <style name="Widget.Perde.Nav" parent="Widget.Material3.Button.TextButton">
+        <item name="android:background">@drawable/item_bg</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:textColor">@color/perde_text_dim</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+        <item name="android:minHeight">54dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

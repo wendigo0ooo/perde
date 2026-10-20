@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Perde</string>
+    <string name="tagline">Kendi kaynağın, kendi ekranın.</string>
+
+    <string name="nav_channels">Kanallar</string>
+    <string name="nav_sources">Kaynaklar</string>
+    <string name="nav_guide">Rehber</string>
+    <string name="nav_settings">Ayarlar</string>
+
+    <string name="search_hint">Kanal veya grup ara</string>
+    <string name="favorites">Favoriler</string>
+    <string name="all_channels">Tümü</string>
+    <string name="favorite">Favorilere ekle</string>
+    <string name="unfavorite">Favorilerden çıkar</string>
+
+    <string name="channels_empty">Henüz kanal yok. Kaynaklar bölümünden bir M3U listesi ekle.</string>
+    <string name="no_results">Aramayla eşleşen kanal bulunamadı.</string>
+    <string name="channel_count">%1$d kanal · %2$d kaynak</string>
+
+    <string name="sources_title">Kaynaklar</string>
+    <string name="sources_desc">Perde içerik sağlamaz. Kendi M3U/M3U8 listeni URL veya dosya olarak ekle; kanallar yalnız bu cihazda saklanır.</string>
+    <string name="add_from_url">URL\'den ekle</string>
+    <string name="add_from_file">Dosyadan ekle</string>
+    <string name="clear_all">Tüm kaynakları sil</string>
+    <string name="clear_confirm">Tüm kaynaklar ve kanallar silinsin mi? Favoriler korunur.</string>
+    <string name="source_summary">%1$d kanal · %2$d kaynak</string>
+    <string name="source_none">Henüz kaynak eklenmedi.</string>
+
+    <string name="dialog_source_title">M3U kaynağı ekle</string>
+    <string name="dialog_source_name">Kaynak adı (isteğe bağlı)</string>
+    <string name="dialog_source_url">Liste adresi (https://…)</string>
+    <string name="dialog_source_note">Yalnız HTTPS desteklenir. HTTP için ayrı “open” sürüm gereklidir.</string>
+    <string name="dialog_add">Ekle</string>
+    <string name="dialog_cancel">Vazgeç</string>
+    <string name="source_name_required">Adres boş olamaz.</string>
+    <string name="source_https_only">Yalnız https:// adresleri desteklenir.</string>
+
+    <string name="importing">Liste alınıyor…</string>
+    <string name="import_done">%1$d kanal eklendi · %2$d atlandı.</string>
+    <string name="import_empty">Listede geçerli kanal bulunamadı.</string>
+    <string name="import_failed">İçe aktarma başarısız: %1$s</string>
+
+    <string name="guide_title">Rehber</string>
+    <string name="guide_soon">EPG (yayın rehberi) sonraki sürümde eklenecek. XMLTV dosyanı ekleyerek program bilgilerini görebileceksin.</string>
+
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_privacy_title">Gizlilik</string>
+    <string name="settings_privacy">Perde reklam, analitik veya hesap kullanmaz. Kanal listesi ve favoriler yalnız cihazda tutulur; hiçbir sunucuya gönderilmez.</string>
+    <string name="settings_http_title">HTTP kaynakları</string>
+    <string name="settings_http_note">Bu sürümde şifresiz HTTP kapalıdır. HTTP listeleri için “open” sürümünü kullanabilirsin.</string>
+    <string name="settings_version">Sürüm %1$s</string>
+    <string name="settings_about">Perde bir oynatıcıdır; yayın içeriği sağlamaz.</string>
+
+    <string name="player_error">Oynatma hatası: %1$s</string>
+    <string name="player_back">Geri</string>
+    <string name="player_missing_url">Yayın adresi bulunamadı.</string>
+</resources>

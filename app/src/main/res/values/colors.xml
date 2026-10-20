@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="perde_bg">#0A1526</color>
+    <color name="perde_surface">#12203A</color>
+    <color name="perde_surface2">#1A2C4E</color>
+    <color name="perde_stroke">#2A3E63</color>
+    <color name="perde_gold">#D8A24A</color>
+    <color name="perde_gold_dim">#A97C2F</color>
+    <color name="perde_text">#E8EEF9</color>
+    <color name="perde_text_dim">#93A3BD</color>
+    <color name="perde_on_gold">#1A1205</color>
+</resources>
